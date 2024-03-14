@@ -1,12 +1,10 @@
-document.addEventListener('mousemove', function(e) {
-    // var tracker = document.createElement('div');
-    // tracker.className = 'tracker';
-    // document.body.appendChild(tracker);
-    // trackerring.className = 'tracker-ring';
-    // document.body.appendChild(trackerring);
+const typed = new Typed('.auto_type',{
+  string:["Frontend Developer" , "MERN Starck Developer" , "Codding and Sleep"],
+  typeSpeed:150,
+  backSpeed:150,
+})
 
-    // var trackerring = document.createElement('div');
-    
+document.addEventListener('mousemove', function(e) {    
     var tracker = document.querySelector('.tracker');
     var trackerring = document.querySelector('.trackerring');
     var x = e.clientX;
