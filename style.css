@@ -73,11 +73,28 @@ top:0 }
 .hero{
     display: flex;
     flex-direction: row;
-    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 
 }
 .personal_info{
     flex: 1;
+}
+.personal_info h6{
+    font-size: 36px;
+    color:white;
+}
+.personal_info h1{
+    font-size: 52px;
+    color:white;
+}
+.personal_info p {
+    font-size: 36px ;
+}
+.personal_info p span{
+    color: skyblue;
+    font-weight: bold;
 }
 
 .image_container{
