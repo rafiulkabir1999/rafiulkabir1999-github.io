@@ -1,0 +1,58 @@
+
+
+
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+    background:  hsl(222, 17%, 15%);
+}
+
+.container {
+    width: 1140px; /* Set width */
+    margin: 0 auto;
+  }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: hsl(222, 17%, 15%);
+    color:white;
+
+}
+
+.items{
+
+    
+
+}
+
+.items ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.items ul li {
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+
+}
+.personal_info{
+    flex: 1;
+}
+
+.image_container{
+    flex: 1;
+
+}
