@@ -8,6 +8,34 @@
     font-family: "Roboto", sans-serif;
     background:  hsl(222, 17%, 15%);
 }
+body{
+    position: relative;
+}
+
+
+.tracker {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none; /* Ensures the tracker doesn't interfere with mouse events */
+    transform: translate(-50% , -50%); 
+    transition: .15s;
+left:0;
+top:0 }
+
+.trackerring {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    pointer-events: none; /* Ensures the tracker doesn't interfere with mouse events */
+    transform: translate(-50% , -50%); 
+    transition: .15s; 
+    background: transparent;
+}
 
 .container {
     width: 1140px; /* Set width */
@@ -55,4 +83,9 @@
 .image_container{
     flex: 1;
 
+}
+
+.personal_info h1 :hover ~ .trackerring {
+    
+    transform: translate(-50% , -50%) scale(2);
 }
