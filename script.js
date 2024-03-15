@@ -9,7 +9,6 @@ document.addEventListener("mousemove", function (e) {
   var trackerring = document.querySelector(".trackerring");
   var x = e.clientX;
   var y = e.clientY;
-  console.log(x, y);
   // tracker.style.left = tracker-ring = x + 'px';
   // tracker.style.top = tracker-ring = y + 'px';
   tracker.style.cssText = trackerring.style.cssText =
